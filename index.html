@@ -7,15 +7,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 <style>body{
-           margin: 0;
-           height: 100vh;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-           background: rebeccapurple;
-           font-family: Arial, Helvetica, sans-serif;
-           color: #ecbfbf;
+    background: linear-gradient(-45deg, rgb(97, 4, 97), rgb(98, 167, 167),rgb(134, 10, 143));
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2e2c2c;
 }
+    
+   
+@keyframes gradientBG{
+    0% { background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0% 50%;}
+}
+          
 
 .card{
     background: rgb(137, 144, 126);
@@ -58,6 +68,9 @@ h2{margin: 10px 0 5px;
 }
 
 .btn{
+    color: rgb(84, 38, 199);
+    background-color: aliceblue;
+    text-decoration: none;
     padding: 10px 15px;
     border-radius: 6px;
     border: 1px solid blue;
@@ -106,8 +119,8 @@ h2{margin: 10px 0 5px;
     transition: 0.3s;
 }
 
-.social-midia i :hover{
-    color: violet;
+.social-midia i:hover{
+    color: rgb(53, 189, 157);
     transform: scale(1.2);
 }
 
@@ -123,28 +136,33 @@ h2{margin: 10px 0 5px;
         <div class="job">ESTUDANTE EM T.I<br>TECNICO EM INFORMATICA</div>
 
     <div class="botoes">
-    <button class="btn primario">menssagem</button>
-    <button class="btn secundario">follow</button>
+    <a href="https://wa.me/553899052114"target="_blank" class="btn primario">menssagem</a>
+    <a href="https://www.instagram.com/douglas_7fernandes?igsh=MWw5dmk0Ym1iMzNidg=="target="_blank" class="btn secundario">follow</a>
     </div>
+
     <div class="skills">
-        <h3>habilidades</h3>
+        <h3>HABILIDADES</h3>
         <div class="tags">
             <span class="tag"> redes</span>
             <span class="tag"> hardware</span>
-            <span class="tag"> packtrace</span>
+            <span class="tag"> packet trace</span>
             <span class="tag"> banco de dados</span>
             <span class="tag"> python</span>
             <span class="tag"> formataçao</span>
             <span class="tag"> linux</span>
             <span class="tag"> html</span>
+             <span class="tag"> css</span>
 
  </div>
    <div class="social-midia">
-  <i class="fab fa-facebook"></i>
-  <i class="fab fa-github"></i>
-  <i class="fab fa-linkedin"></i>
-  <i class="fab fa-instagram"></i>
+  <a href="Https://www.facebook.com/share/1BBsuKvwRo/" target="_blank"><i class="fab fa-facebook"></i></a>
+  <a href="https://github.com/abelfernandes15-afk"target="_blank"><i class="fab fa-github"></i></a>
+  <a href="Https://www.linkedin.com/in/douglas-abel-fernandes-8982522a7?utm_source=share_via&utm_content=profile&utm_medium="target="_blank"><i class="fab fa-linkedin"></i></a>
+  <a href="https://www.instagram.com/douglas_7fernandes?igsh=MWw5dmk0Ym1iMzNidg==" target="_blank"><i class="fab fa-instagram"></i></a>
+
+
 </div>
-    </div>
+</div>
+</div>
 </body>
 </html>
